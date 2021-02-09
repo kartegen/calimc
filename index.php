@@ -86,6 +86,7 @@
                       <th>Peso(kg)</th>
                       <th>Altura(cm)</th>
                       <th>IMC</th>
+                      <th>eSTADO</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -97,6 +98,7 @@
                         <td><?= $rows[$i]['peso_usuario']; ?></td>
                         <td><?= $rows[$i]['altura_usuario']; ?></td>
                         <td><?= $rows[$i]['imc_usuario']; ?></td>
+                        <td><?= $rows[$i]['estado_usuario']; ?></td>
                       </tr>
                   <?php  }
                   ?>
